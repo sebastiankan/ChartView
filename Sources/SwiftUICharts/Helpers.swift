@@ -132,7 +132,7 @@ public struct Styles {
     public static let weatherAppLightMode = ChartStyle(
         backgroundColor: Color.clear,
         accentColor: Color.red,
-        secondGradientColor: Color.blue,
+        secondGradientColor: Color.green,
         textColor: Color.white,
         legendTextColor: Color.white,
         dropShadowColor: Color.gray)
