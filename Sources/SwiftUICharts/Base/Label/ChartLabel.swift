@@ -39,7 +39,7 @@ public struct ChartLabel: View {
     private var labelPadding: EdgeInsets {
         switch labelType {
         case .title:
-            return EdgeInsets(top: 16.0, leading: 8.0, bottom: 0.0, trailing: 8.0)
+            return EdgeInsets(top: 12.0, leading: 8.0, bottom: 0.0, trailing: 8.0)
         case .legend:
             return EdgeInsets(top: 4.0, leading: 8.0, bottom: 0.0, trailing: 8.0)
         case .subTitle:
