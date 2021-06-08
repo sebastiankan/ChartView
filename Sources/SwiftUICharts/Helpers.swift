@@ -128,6 +128,22 @@ public struct Styles {
         textColor: Color.white,
         legendTextColor: Color.white,
         dropShadowColor: Color.gray)
+    
+    public static let weatherAppDarkMode = ChartStyle(
+        backgroundColor: Color.clear,
+        accentColor: Color.white,
+        secondGradientColor: Color.white,
+        textColor: Color.white,
+        legendTextColor: Color.white,
+        dropShadowColor: Color.gray)
+    
+    public static let weatherAppLightMode = ChartStyle(
+        backgroundColor: Color.clear,
+        accentColor: Color.white,
+        secondGradientColor: Color.white,
+        textColor: Color.white,
+        legendTextColor: Color.white,
+        dropShadowColor: Color.gray)
 }
 
 public struct ChartForm {
